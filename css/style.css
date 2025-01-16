@@ -227,7 +227,20 @@
     padding-top: 0.5rem !important; 
     padding-bottom: 0.5rem !important;
 }
+
+
+@media (min-width: 535px) {  
+.py-md-5 {
+  padding-top: 45rem !important;
+  padding-bottom: 35rem !important;
 }
+
+}
+}
+
+
+
+
 
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
@@ -1444,15 +1457,29 @@ background: white;
         text-align: center;
         font-size: 2rem;
         color: var(--card-h1-destaque);
+        padding-top: 15px;
       
       }
       .Heading-ideiaMobile a{   
-        font-size: 1.5rem;
-       
+        
+       display: block;
       
       }
+
+      .Heading-ideiaMobile img{
+        height: 300px;
+      }
   
+      .mobile-info{
+        padding-top: 15px;
+      }
   
+      .align-items-center {
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center !important;
+    }
   
   
     /*Heading-ideiaMobile*/
@@ -1698,6 +1725,7 @@ background: white;
           aspect-ratio: 1;
           object-fit: cover;
         }
+
         
      
       }
@@ -2082,10 +2110,32 @@ background: white;
   
 
   /*Contact*/
+/* Para desktop */
+.py-md-5 {
+  padding-top: 25rem !important;
+  padding-bottom: 35rem !important;
+}
 
-.py-md-5{padding-top:27rem!important;padding-bottom:35rem!important}
-
-
+/* Para dispositivos móveis (Referente a contatos) */
+@media (max-width: 768px) {
+  .py-md-5 {
+      padding-top: 45rem !important;
+      padding-bottom: 47rem !important;
+  }
+  .py-5 {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+  .container{
+    margin-top: 5px;
+  }
+  .title-WhatWeDo {
+    font-family: 'ROBOTO';
+    font-size: 2rem;
+    padding: 1rem;
+}
+}
+/*Contact*/
 
 
 .b24-widget-button-inner-container{
